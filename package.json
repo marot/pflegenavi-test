@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "18.0.2",
+    "@nestjs/common": "9.0.4",
+    "@nestjs/config": "2.2.0",
+    "date-fns": "2.28.0"
+  },
+  "devDependencies": {
+    "vite": "2.9.14",
+    "vitest": "0.18.1"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}
