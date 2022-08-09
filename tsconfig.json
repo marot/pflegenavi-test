@@ -5,8 +5,10 @@
     "types": [],
     "target": "es6",
     "moduleResolution": "Node",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["**/*.spec.ts", "**/*.test.ts"]
 }
